@@ -20,5 +20,4 @@ public:
     std::string_view name;
 };
 
-
 } // namespace sl::rt
