@@ -8,7 +8,9 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(serious-cmake-library)
 
-sl_project_prologue(CXX_STANDARD 23)
+sl_project_prologue(
+    CXX_STANDARD 23
+    C_STANDARD 17)
 project(
         serious-runtime-library
         VERSION 0.0.1
