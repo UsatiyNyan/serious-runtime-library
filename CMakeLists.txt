@@ -13,7 +13,7 @@ sl_project_prologue(
     C_STANDARD 17)
 project(
         serious-runtime-library
-        VERSION 0.0.0
+        VERSION 0.0.1
         DESCRIPTION "runtime library"
         HOMEPAGE_URL "TODO"
         LANGUAGES CXX)
